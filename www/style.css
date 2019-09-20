@@ -1,0 +1,17 @@
+html * {
+    font-family: monospace;
+}
+
+.pagetitle {
+    font-size: 50px;
+}
+
+body {
+    font-size: 24px;
+}
+
+#centerlist {
+    text-align: center;
+    list-style-type: none;
+    line-height: 200%;
+}
