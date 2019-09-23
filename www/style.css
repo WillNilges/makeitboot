@@ -1,13 +1,28 @@
 html * {
     font-family: monospace;
-}
-
-.pagetitle {
-    font-size: 50px;
+    margin-top: 0;
 }
 
 body {
     font-size: 24px;
+    text-align: center;
+    margin: 0;
+    margin-top: 0;
+}
+
+.pagetitle {
+    font-size: 50px;
+    color: #FFF;
+    /*-webkit-text-stroke: 1px black;*/
+    text-shadow: 2px 2px 4px #000000;
+    background-image: url("../media/morning_machine_crop.jpg");
+    background-size: cover;
+}
+
+.tldr {
+    text-align: center;
+    color: #FFF;
+    background-color: #000;
 }
 
 #centerlist {
