@@ -15,7 +15,7 @@ body {
     color: #FFF;
     /*-webkit-text-stroke: 1px black;*/
     text-shadow: 2px 2px 4px #000000;
-    background-image: url("../media/morning_machine_crop.jpg");
+    background-image: url("media/morning_machine_crop.jpg");
     background-size: cover;
 }
 
