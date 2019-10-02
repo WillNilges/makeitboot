@@ -29,4 +29,10 @@ body {
     text-align: center;
     list-style-type: none;
     line-height: 200%;
+    /*border-style: solid;*/
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    margin-right: 10%;
+    margin-left: 10%;
 }
