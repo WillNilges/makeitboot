@@ -8,9 +8,23 @@ body {
     text-align: center;
     margin: 0;
     margin-top: 0;
+    background-color: #222;
+    color: #FFF;
 }
 
-.pagetitle {
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #3399FF
+}
+
+a:visited {
+    color: #33AAAA
+}
+
+.pageTitle {
     font-size: 50px;
     color: #FFF;
     /*-webkit-text-stroke: 1px black;*/
@@ -19,13 +33,36 @@ body {
     background-size: cover;
 }
 
+.pageTitle .catalogTitle {
+    background-image: url("media/novideo_bad.jpg");
+    background-size: cover;
+    padding: 50px;
+}
+
 .tldr {
     text-align: center;
     color: #FFF;
     background-color: #000;
 }
 
-#centerlist {
+#catalogList {
+    text-align: center;
+    list-style-type: none;
+    line-height: 200%;
+    /*border-style: solid;*/
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#catalogItemDesc {
+    font-size:16px;
+    line-height:25px;
+}
+
+#centerList {
     text-align: center;
     list-style-type: none;
     line-height: 200%;
